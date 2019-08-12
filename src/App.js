@@ -7,7 +7,7 @@ import BottomRow from "./BottomRow";
 function App() {
   //TODO: STEP 2 - Establish your applictaion's state with some useState hooks.  You'll need one for the home score and another for the away score.
 
-  // MVP goals
+  // *********** MVP goals *************
   const [count, setCount] = useState({
     home: 32,
     away: 30
@@ -41,7 +41,7 @@ function App() {
     });
   }
 
-  // Stretch goal
+  // *********** Stretch goal ***************
   function handler(teamName, amount) {
     const {home, away} = count;
     if (teamName === 'home') {
